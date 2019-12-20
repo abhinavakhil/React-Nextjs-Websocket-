@@ -1,0 +1,23 @@
+problem statement : 
+college me students ko bahut sare misconception rahta hai about studies (like, roadmap about the carrier they have taken, and where to start and what to do ), also studying in engenniering becomes very 
+boring bcz of bad and less trained faculty and they can complain to gov through our website( 1. query on our website then fetching the data of students of that respective college we will do a polling ,
+ 2. if it is true we will give a notice to the college authority with some deadlines 3. else if fail issue will be send to the state government).
+ 4. if fail at state level then will be send to central education govern.
+==
+
+
+A web + android platform app connecting students of india from different colleges.
+working:
+1. students authetication (i.e should be genuine )
+   and their college identity ( studying )
+   or their workplace identity -(if not studying)
+
+2. teacher id with authorized certificate in the respective field and should be teaching that subj only.
+3. college happening feed - our app will have authorized college ambasador in each college posting all the related feed happening in their colleges.
+
+&connecting and collaboration among students and techer of different college.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

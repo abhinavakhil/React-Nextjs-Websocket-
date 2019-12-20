@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <head>
+     <title>Angular.js</title>
+
+     <script  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    </head>
+<body>
+
+ <!-- <div ng-app="" ng-init="firstName='john'">
+ <p>Name:</p>
+ <!-- <input type="text" ng-Model="name"/> -->
+ <!-- <p>The name is <span ng-bind="firstName"></span></p>
+ </div> --> 
+ <!-- //// -->
+ <!-- <div ng-app="">
+     
+     <p>My first expression:{{6/7}}</p>
+ </div> -->
+<!-- ////// -->
+
+<!-- expression , Module and controller -->
+
+<!-- <div ng-app="myApp" ng-controller="myCtrl">
+    <p>FirstName: <input type="text" ng-Model="firstName"></p>
+    <p>LastName: <input type="text" ng-Model="lastName"></p>
+    Full Name: {{firstName + " "+ lastName}}
+</div>
+<script>
+    // DEFINING A MODULE
+    var app = angular.module('myApp', []);
+    // CONTROLLER 
+    app.controller('myCtrl',function($scope){
+        $scope.firstName = 'john';
+        $scope.lastName = 'Doe';
+    }) 
+</script> -->
+
+<div ng-app="" ng-init="quantity=1;cost=5;firstName='Abhinav';lastName='Akhil';person={firstName:'john',lastName:'Doe'};
+       points=[0,1,2,4,5,8,7]">
+   <p>Total in dollar:{{quantity * cost}}</p> 
+   <p>Total in dollar:<span ng-bind="quantity * cost"></span></p>
+   <p>Name is: {{firstName +" "+ lastName}}</p>
+   <p>LastName of a person is:{{ person.lastName }}</p>
+   <!-- Array -->
+   <p>points second index is:{{points[1]}}</p>
+</div> 
+
+
+</body>
+</html>
